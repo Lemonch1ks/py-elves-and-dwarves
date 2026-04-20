@@ -7,4 +7,5 @@ class Elf(Player):
         self._nickname = nickname
 
     def play_elf_song(self) -> None:
-        print(f"{self._nickname} is playing a song on the {self._musical_instrument}")
+        print(f"{self._nickname}"
+              f" is playing a song on the {self._musical_instrument}")
